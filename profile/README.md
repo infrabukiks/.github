@@ -55,5 +55,5 @@ _A DevOps lab focused on automation, scalability, and reliability._
 
 ## 🔗 Let's Connect
 
-- 👨‍💻 GitHub: [@infrabukiks](https://github.com/infrabukiks)
+- 👨‍💻 GitHub: [@abukiks](https://github.com/abukiks)
 - 📬 Email: abukiks.x@gmail.com
