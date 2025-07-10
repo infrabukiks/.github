@@ -1,59 +1,93 @@
-# 🚀 infrabukiks (ibx)
+# 🌐 Infrabukiks
 
-**Infrastructure by Abukiks**  
-_A DevOps lab focused on automation, scalability, and reliability._
+**Professional-grade DevOps SaaS tools — built from scratch, production-ready, and open for learning.**
 
-`ibx` is the short form of `infrabukiks` — a personal project hub exploring real-world infrastructure practices, DevOps tools, and modern deployment pipelines.
-
----
-
-## 🧱 Projects
-
-| Project         | Description                                     |
-|-----------------|-------------------------------------------------|
-| [`ibx-cli`](https://github.com/infrabukiks/ibx-cli) | A custom CLI tool for common DevOps tasks |
-| [`ibx-infra`](https://github.com/infrabukiks/ibx-infra) | Infrastructure as Code (Terraform / Pulumi) |
-| [`ibx-monitoring`](https://github.com/infrabukiks/ibx-monitoring) | Prometheus, Grafana, and alerting stack |
-| [`ibx-docker-base`](https://github.com/infrabukiks/ibx-docker-base) | Optimized Docker base images |
-| [`ibx-tasktrackr`](https://github.com/infrabukiks/ibx-tasktrackr) | 12-Factor App demo with FastAPI + CI/CD |
+Welcome to **Infrabukiks**, a platform dedicated to creating scalable, real-world DevOps SaaS projects. This organization serves as a launchpad for professional-grade tools designed, built, and deployed following **industry best practices** and the **12-Factor App methodology**.
 
 ---
 
-## 🎯 Mission
+## 🚀 What is Infrabukiks?
 
-- Build production-ready DevOps projects
-- Follow industry best practices (CI/CD, IaC, monitoring, etc.)
-- Document everything to help others learn
-- Treat every project as if it's going to production
+Infrabukiks is a DevOps-focused startup project with a simple goal:  
+**Build, deploy, and operate SaaS tools the way modern engineering teams do.**
 
----
+Every project in this org is:  
 
-## 🛠️ Tech Stack
+- 🌱 **Built from scratch** — no scaffolds, no shortcuts.  
+- 🔥 **Production-ready** — using Docker, Terraform, CI/CD, monitoring, and zero-trust security.  
+- 📖 **Documented** — so others can follow and learn.  
+- 🧑‍💻 **Open for contributions** (soon).  
 
-- **CI/CD:** GitHub Actions, Docker, Trivy
-- **IaC:** Terraform, Ansible (future), GitOps
-- **Infra:** Linux, NGINX, Render/Fly.io/AWS
-- **Monitoring:** Prometheus, Grafana, Loki
-- **Languages:** Python, Go, Bash
+This is not just a portfolio—it’s a full platform designed to grow from MVP to a **multi-service DevOps startup**.
 
 ---
 
-## 📦 Repo Naming Conventions
+## 🛠️ Projects
 
-- `ibx-*` — DevOps tools and components
+| Project              | Description                                         | Subdomain                          |
+|----------------------|-----------------------------------------------------|-------------------------------------|
+| [`ibx-failsim`](https://github.com/infrabukiks/ibx-failsim)       | Chaos engineering simulator for DevOps labs | [failsim.infrabukiks.com](https://failsim.infrabukiks.com) |
+| [`ibx-deploysight`](https://github.com/infrabukiks/ibx-deploysight) | Deployment tracker & version visualizer        | deploysight.infrabukiks.com        |
+| [`ibx-runbookr`](https://github.com/infrabukiks/ibx-runbookr)     | Collaborative SRE/DevOps runbook manager       | runbookr.infrabukiks.com           |
+| [`ibx-scheduler`](https://github.com/infrabukiks/ibx-scheduler)   | Job & task scheduler for data pipelines        | scheduler.infrabukiks.com          |
+| [`ibx-cicd`](https://github.com/infrabukiks/ibx-cicd)             | Modern CI/CD case study (Zero to Prod)         | cicd.infrabukiks.com               |
+| [`ibx-monitoring`](https://github.com/infrabukiks/ibx-monitoring) | Monitoring stack with Prometheus, Grafana, Loki| monitoring.infrabukiks.com         |
+| [`ibx-cli`](https://github.com/infrabukiks/ibx-cli)               | DevOps CLI tool for Kubernetes and beyond      | (N/A - CLI tool)                   |
+| [`ibx-docs`](https://github.com/infrabukiks/ibx-docs)             | Centralized documentation & runbooks           | docs.infrabukiks.com               |
 
-> All projects follow GitHub flow, 12-Factor App principles, and include CI/CD pipelines
+Each repository is self-contained, Dockerized, and provisioned for AWS EC2 deployment.
 
 ---
 
-## ✨ Why `ibx`?
+## 📦 Tech Stack
 
-> `ibx` = **Infra by Abukiks**  
-> Inspired by real-world tooling, built for learning-by-doing.
+- **Cloud**: AWS EC2, S3, Cloudflare (DNS/TLS)
+- **Infrastructure as Code**: Terraform, Ansible
+- **Containers**: Docker, K3s (lightweight Kubernetes)
+- **CI/CD**: GitHub Actions, ArgoCD, Jenkins
+- **Monitoring**: Prometheus, Grafana, Loki
+- **Apps**: FastAPI (Python), Go, React + Tailwind (UI)
+- **Security**: OAuth2, OIDC, Zero Trust
 
 ---
 
-## 🔗 Let's Connect
+## 📖 Learn by Doing
 
-- 👨‍💻 GitHub: [@abukiks](https://github.com/abukiks)
-- 📬 Email: abukiks.x@gmail.com
+Infrabukiks is also a **learning journey** for aspiring DevOps engineers.  
+Each project includes:  
+
+✅ Step-by-step guides  
+✅ Runbooks for operations and recovery  
+✅ Diagrams (architecture, CI/CD flows)  
+✅ Fully documented infrastructure and app code  
+
+---
+
+## 🤝 Contributing
+
+We’re building the core platform right now.  
+✅ Contributions will open after the first MVP release.  
+📌 Stay tuned for [CONTRIBUTING.md](https://github.com/infrabukiks/.github/blob/main/CONTRIBUTING.md) and issue templates.
+
+---
+
+## 📝 License
+
+All projects in this organization are released under the [MIT License](LICENSE) unless otherwise specified.
+
+---
+
+## 📬 Contact
+
+📧 Email: [abukiks.x@gmail.com](mailto:abukiks.x@gmail.com)  
+🌐 Website: [infrabukiks.com](https://infrabukiks.com)
+
+---
+
+## ⭐ Why Infrabukiks?
+
+Because **DevOps isn’t just tools—it’s culture, automation, and real impact**.  
+This org is proof that one person (or a small team) can build startup-grade systems from **zero to production**.
+
+---
+
